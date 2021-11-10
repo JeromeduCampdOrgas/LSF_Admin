@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const instance = axios.create({
-  baseURL: "https://git.heroku.com/lsf-back.git/api/ ",
+  baseURL: "https://lsf-back.herokuapp.com/api/ ",
 });
 /*instance.defaults.headers.common["Authorization"] = localStorage.getItem(
   "token"
